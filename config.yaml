@@ -4,5 +4,5 @@ database: &common
   enabled: true
   legacy: yes
 
-  database_new: *common
+database_new: *common
   host: db-new.example.net
